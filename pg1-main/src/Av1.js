@@ -7,10 +7,10 @@ import { useMediaQuery } from 'react-responsive';
 
 function App() {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "unity/Build/buildtemp.loader.js",
-    dataUrl: "unity/Build/buildtemp.data",
-    frameworkUrl: "unity/Build/buildtemp.framework.js",
-    codeUrl: "unity/Build/buildtemp.wasm",
+    loaderUrl: "unity/Build/buildParque.loader.js",
+    dataUrl: "unity/Build/buildParque.data",
+    frameworkUrl: "unity/Build/buildParque.framework.js",
+    codeUrl: "unity/Build/buildParque.wasm",
     streamingAssetsUrl: "unity/StreamingAssets"
   });
 
