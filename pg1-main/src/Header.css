@@ -1,0 +1,61 @@
+.button-inicio {
+    border: none;
+    background-color: #006997;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+    height: 40px;
+    padding-left: 15px;
+}
+
+.button-inicio a:hover{
+    color: inherit;
+}
+.button-logout{
+    width: 7%;
+    border: none;
+    font-size: 15px;
+    background-color: #006997;
+    color: #ffffff;
+}
+.button-logout:hover{
+    cursor: pointer;
+    background: #008bc7;
+    color: #ffffff;
+}
+.button-perfil{
+    width: 8%;
+    border: none;
+    font-size: 15px;
+    background-color: #006997;
+    color: #fff;
+}
+.button-perfil:hover{
+    cursor: pointer;
+    background: #008bc7;
+    color:#ffffff;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.divHeader{
+    width: 100%;
+    height: 100%;
+    background-color: #9e0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.titulo {
+    align-self: center;
+    color: #fff;
+    justify-self: center;
+}
